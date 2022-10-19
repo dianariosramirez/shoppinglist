@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Noto Sans Mono', monospace;
+  line-height: 1.5;
+  background-image: url(https://img.freepik.com/foto-gratis/surtido-elementos-black-friday_23-2149074076.jpg?w=900&t=st=1666034110~exp=1666034710~hmac=ffc5a167a87907fbcf8f56711441ecc3bdc5c2d86523a6e2cf8c612217fa3286);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  color:rgb(249, 247, 247);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  text-decoration: underline;
+  color: white;
+}
+
+.shoppinglist {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin-left: 100px;
+  margin-right: auto;
+  background-color: black;
+  padding: 30px;
+}
+
+/* Form style */
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 15px 10px;
+  outline: none;
+  width: 400px;
+}
+
+/* Enter button  to add to shopping list*/
+
+#enter {
+  color:black;
+  background-color: rgb(249, 179, 74);
+  padding: 5px 10px;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2em;
+}
+
+#enter:hover {
+  cursor: pointer;
+  color: rgb(249, 179, 74);
+  font-weight: bold;
+  background-color: rgb(55, 54, 54);
+}
+
+/* List style */
+
+.list {
+  background-color: black;
+  width: 100%;
+  color: rgb(18, 19, 19);
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+  max-height: 300px;
+  overflow: auto;
+}
+
+li {
+  list-style: none;
+  background-color: rgb(249, 179, 74);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Delete button to remove items from the list */
+
+.delete {
+  margin-left: auto;
+  border: none;
+  background-color: #f1ebec;
+  color: red;
+  padding: 5px 10px;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2em;
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+/* Style option for title */
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+/* Style for underline */
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+
+
